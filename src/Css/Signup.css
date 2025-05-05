@@ -1,0 +1,64 @@
+.sign {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('./signup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sicons{
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.fsign {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.075);
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    border-radius: 50px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.fsign:hover {
+    box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.379);
+}
+
+#sbtn{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#slink{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.084);
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 25px;
+    cursor: pointer;
+}

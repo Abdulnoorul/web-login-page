@@ -1,0 +1,88 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('/login.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.logto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    column-gap: 5px;
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    transition: box-shadow 0.5s ease-in-out;
+    backdrop-filter: blur(50px);
+}
+.logto:hover{
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+}
+
+#lohHead{
+    text-align: center;
+}
+
+.louname, .lopw{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+input{
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 250px;
+    padding: 0 10px 0 10px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.500);
+    font-size: 20px;
+}
+
+#lobtn{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    padding: 0 5px 0 5px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.500);
+    cursor: pointer;
+}
+
+#hype{
+    color: black;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 2px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.500);
+    cursor: pointer;
+}
