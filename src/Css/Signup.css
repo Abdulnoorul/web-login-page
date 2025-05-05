@@ -1,6 +1,6 @@
 .sign {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url('./signup.jpg');
+    background-image: url('/signup.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
